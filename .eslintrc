@@ -1,29 +1,33 @@
 {
-    "root": true,
-    "parser": "babel-eslint",
-    "extends": "airbnb-base",
-    "env": {
-        "browser": true,
-        "node": true,
-        "es6": true,
-        "mocha": true,
-        "jest": true,
-    },
-    "globals": {
-        "__DEV__": true,
-        "__WECHAT__": true,
-        "__ALIPAY__": true,
-        "App": true,
-        "Page": true,
-        "Component": true,
-        "wx": true,
-        "getApp": true,
-    },
-    "settings": {
-        "import/resolver": {
-            "webpack": {
-                "config": "webpack.config.babel.js"
-            }
-        }
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true,
+    "jest": true,
+  },
+  "rules": {
+    "no-console": "off",
+  },
+  "globals": {
+    "__DEV__": true,
+    "__WECHAT__": true,
+    "__ALIPAY__": true,
+    "App": true,
+    "Page": true,
+    "Component": true,
+    "wx": true,
+    "getApp": true,
+    "isFinite": true,
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.babel.js"
+      }
     }
+  }
 }
