@@ -1,4 +1,4 @@
-import { formatTime } from '../../utils/util.js';
+import { formatTime } from '../../utils/util';
 
 Page({
   data: {
