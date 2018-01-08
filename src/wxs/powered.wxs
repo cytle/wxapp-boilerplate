@@ -1,3 +1,3 @@
 
-const name = 'webpack';
+const name = '草莓工作室先赚一个亿';
 module.exports.by = `Powered by ${name}`;
