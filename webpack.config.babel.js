@@ -51,6 +51,7 @@ export default (env = {}) => {
         {
           test: /\.js$/,
           include: /src/,
+          exclude: /node_modules/,
           use: [
             'babel-loader',
             shouldLint && 'eslint-loader',
