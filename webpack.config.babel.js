@@ -1,4 +1,3 @@
-
 import { resolve } from 'path';
 import { DefinePlugin, EnvironmentPlugin, IgnorePlugin, optimize } from 'webpack';
 import WXAppWebpackPlugin, { Targets } from 'wxapp-webpack-plugin';

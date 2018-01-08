@@ -1,15 +1,16 @@
 {
-	"presets": [
-		["es2015", {
-			"loose": true,
-		}],
-		"stage-0",
-	],
-	"plugins": [
-		["transform-runtime", {
-			"polyfill": true,
-			"regenerator": true,
-		}],
-		"lodash",
-	]
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": true,
+      "regenerator": true,
+    }],
+    "lodash"
+  ]
 }
